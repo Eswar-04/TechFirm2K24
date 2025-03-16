@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFirm 24</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--Poppins Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--Font cdn Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="Images/Icon.png">
+
+    <!--Aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="headpart" id="ss">
+        <nav class="navbar">
+            <div>
+                <img class="logo" src="Images/TF Small 150x42.png" alt="fxlogo">
+
+                <img class="logo" src="Images/FXECSmall.png" alt="fxlogo">
+            </div>
+            <div class="indexes">
+                <p><a href="#section1">About</a></p>
+                <p><a href="#section2">Events</a></p>
+                <p><a href="#section3">Contact</a></p>
+                <p><a href="register.html">Register</a></p>
+            </div>
+            <div class="menu" onclick="op()">
+                <p><i class="fa-solid fa-bars"></i></p>
+            </div>
+        </nav>
+        <section class="side" onclick="clos()">
+            <div class="xbar" onclick="clos()">
+                <p id="x"><i class="fa-solid fa-xmark"></i></p>
+            </div>
+            <div class="side-index">
+
+                <p><a href="#">Home</a></p>
+                <p><a href="#section1">About</a></p>
+                <p><a href="#section2">Events</a></p>
+                <p><a href="#section3">Contact</a></p>
+                <p id="new"><a href="register.html">Register</a></p>
+
+            </div>
+
+        </section>
+
+        <section class="part2">
+            <div class="tit">
+                <h1>3<sup>rd</sup> NATIONAL LEVEL TECHNICAL SYMPOSIUM</h1>
+            </div>
+            <div class="launch_time">
+                <div class="sub">
+                    <p id="days">00</p>
+                    <span>&nbsp;Days</span>
+                </div>
+                <div class="sub">
+                    <p id="hours">00</p>
+                    <span>Hours</span>
+                </div>
+                <div class="sub">
+                    <p id="minutes">00</p>
+                    <span> &nbsp;Minutes</span>
+                </div>
+                <div class="sub">
+                    <p id="seconds">00</p>
+                    <span>&nbsp;Seconds</span>
+                            
+                </div>
+            </div><br>
+
+            <div class="mention">
+
+                <h1 id="mains">Department of Computer Science and Business Systems</h1>
+                <p>Proudly Presents</p>
+                <h1 id="main">TECH FIRM</h1>
+            </div>
+        </section>
+    </section>
+
+    <section class="About" id="section1">
+        <div class="for_abt">
+            <h1>About</h1>
+            <p>Welcome to the ultimate convergence of technology and imagination at the TechFirm Symposium! This dynamic
+                event is
+                where cutting-edge tech enthusiasts and creative minds collide, sparking innovation at every turn.
+                Prepare to dive
+                into the forefront of innovation with electrifying discussions and groundbreaking showcases. But that's
+                just the
+                beginning! We're thrilled to introduce a plethora of engaging events tailored to ignite your creativity
+                and technical
+                prowess. Gear up for exhilarating paper presentations where pioneering ideas meet scholarly rigor,
+                exploring the
+                latest advancements in technology and beyond. Dive into the depths of web design competitions, Step into
+                the
+                realm of innovation at our project expo, where ingenious minds converge to unveil their groundbreaking
+                creations.
+                From futuristic gadgets to revolutionary software solutions, witness the future unfold before your eyes.
+                And for
+                those who thrive on the thrill of problem-solving, our code debugging challenges await. Put your
+                programming prowess
+                to the test as you tackle complex algorithms and unravel the mysteries of faulty code. At the TechFirm
+                Symposium,
+                the fusion of technology and imagination knows no bounds. Join us for an unforgettable journey at the
+                pinnacle of
+                innovation and creativity!</p>
+        </div>
+
+    </section>
+
+    <section class="dum" id="section2">
+        <div class="evnt">
+            <h1>EVENTS</h1>
+        </div>
+        <section class="part3">
+            <div class="tech">
+                <h1>Technical Events &nbsp;<i class="fa-solid fa-microchip"></i></h1>
+                <p>Paper Presentation</p>
+                <p>Bug Blitz</p>
+                <p>Web Designing</p>
+                <p>Project Expo</p>
+            </div>
+            <div class="non-tech">
+                <h1> Non-Technical Events &nbsp;<i class="fa-solid fa-music"></i></h1>
+                <p>Interlinking Infinity</p>
+                <p>Tune Race</p>
+                <p>Labyrinth Lounge</p>
+                <p>Box Cricket</p>
+            </div>
+            <div class="online">
+                <h1>Online Events &nbsp;<i class="fa-solid fa-gamepad"></i></h1>
+                <p>Valaront</p>
+                <p>BGMI</p>
+                <p> &nbsp;</p>
+                <p> &nbsp;</p>
+
+
+            </div>
+        </section>
+        <div class="btn2">
+            <a href="event.html"><button class="b">Click Here to Explore &nbsp;<i
+                        class="fa-solid fa-arrow-right"></i></button></a>
+            <a href="register.html"> <button class="bb">Register &nbsp;<i
+                        class="fa-solid fa-arrow-right"></i></button></a>
+        </div>
+
+
+
+
+    </section>
+    <section class="contact" id="section3">
+        <h1>CONTACT</h1>
+        <h2>STAFF CO-ORDINATORS</h2>
+        <div class="staff">
+            <div class="anitha_mam">
+                <img src="Images/anitha.png" alt="Mam1">
+                <h2>Mrs.A.Anitha</h2>
+                <div>
+                    <h4>Assistant Professor/CSBS</h4>
+                    <h5>+91 8012027077</h5>
+                </div>
+            </div>
+            <div class="vj_mam">
+                <img src="Images/vijayarani.jpeg" alt="Mam2">
+                <h2>Mrs.G.Vijaya Rani </h2>
+                <div>
+                    <h4>Assistant Professor/CSBS</h4>
+                    <h5>+919994076053</h5>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="std">
+            <h2>STUDENT CO-ORDINATOR</h2>
+        </div>
+        <div class="staffs">
+            <div class="anitha_mam">
+                <img src="Images/barvin ds cropped.png" alt="Senior">
+                <h2>Mr.D.S Barvin</h2>
+                <div>
+                    <h4>III Year/CSBS</h4>
+                    <h5>+91 8870666787</h5>
+                </div>
+            </div>
+            <div class="vj_mam">
+                <img src="Images/barvin cropped.png" alt="barvin">
+                <h2>Mr.R.Muthu Barvin </h2>
+                <div>
+                    <h4>II Year/CSBS</h4>
+                    <h5>+91 8667382757</h5>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="btn3 " style="background-color: rgb(243, 243, 243);">
+        <a href="#ss"> <button class="b" type="button">Home&nbsp;&nbsp;<i class="fa-solid fa-arrow-up"></i></button></a>
+
+    </div>
+
+    <footer>
+
+        <section class="foot">
+            <div class="loc">
+                <h2>Tech Firm 2024</h2>
+                <div>
+                    <p class="ww"><i class="fa-solid fa-location-dot"></i></p>
+                    <p class="ww">103/G2,&nbsp;Bypass Road Vannarpettai,Tirunelveli &nbsp; 627003, &nbsp; Tamil Nadu,
+                        &nbsp;INDIA </p>
+                </div>
+                <div>
+                    <p class="ww"><i class="fa-solid fa-phone"></i></p>
+                    <p class="ww">+91 &nbsp; 7695879552,&nbsp; +91&nbsp;8667382757</p>
+                </div>
+                <div>
+                    <p class="ww"><i class="fa-solid fa-envelope"></i></p>
+                    <p class="ww"><strong>E-mail &nbsp;: &nbsp;</strong>techfirm24fx@gmail.com</p>
+                </div>
+            </div>
+            <div class="follow">
+                <h3>Connect</h3>
+                <div class="fme">
+                    <div>
+                        <p><a href="https://discord.gg/RhN64DMdXB" target="_blank" class="ee"><i
+                                    class="fa-brands fa-discord"></i></a></p>
+                    </div>
+                    <div>
+                        <p><a href="https://www.instagram.com/tech_firm_2k24/" target="_blank" class="ee"><i
+                                    class="fa-brands fa-instagram"></i></a></p>
+                    </div>
+
+                </div>
+                <div class="dp_team">
+                    <h3>Development Team &nbsp; <i class="fa-solid fa-people-group"></i></h3>
+                    <p><strong>U.Muthu Eswar,</strong> &nbsp; II Year CSBS</p>
+                    <p><strong>S.Mohamad Ismail ,</strong> &nbsp; II Year CSBS</p>
+                    <p><strong>S.Abishek,</strong> &nbsp; II Year CSBS</p>
+                    <p><strong>B.Arjun,</strong> &nbsp; II Year CSBS</p>
+                </div>
+            </div>
+
+
+        </section>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="jscript.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                window.scrollTo({
+                    top: targetElement.offsetTop,
+                    behavior: 'smooth'
+
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

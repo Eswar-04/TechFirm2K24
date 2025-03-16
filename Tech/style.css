@@ -1,0 +1,771 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FEFBF6;
+
+
+}
+
+
+.headpart {
+    background-image: url(Images/TechGIF3.webp);
+
+    background-size: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.navbar {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.logo {
+    margin-left: 20px;
+    width: 27%;
+
+}
+
+.indexes {
+    display: flex;
+    gap: 70px;
+    margin-right: 0px;
+    padding-top: 9px;
+    font-size: 15px;
+    margin-right: 30px;
+}
+
+.indexes a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.indexes a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.menu {
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    display: none;
+}
+
+.xbar i {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding-bottom: 19px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.side {
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    top: 0%;
+    left: -53%;
+    background-color: aliceblue;
+    padding: 20px;
+    transition: 1s;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.side-index a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 550;
+    color: rgb(0, 0, 0);
+}
+
+.side-index p {
+    margin-bottom: 20px;
+}
+
+#x {
+    text-align: right;
+}
+
+.part2 {
+    color: white;
+}
+
+.tit {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 30px;
+    text-shadow: 2px 4px 4px rgba(255, 0, 0, 0.708);
+}
+
+.launch_time {
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    color: black;
+    margin-top: 58px;
+    font-size: 40px;
+
+
+}
+
+.launch_time div {
+    margin: 20px;
+    color: white;
+    text-align: center;
+
+
+}
+
+.launch_time p {
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.sub p {
+    font-size: 90px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10%;
+    transition: 0.3s;
+    transition: 0.3s;
+    animation: h1 5000ms infinite;
+    text-shadow: 0 0 10px rgb(253, 181, 37),
+        0 0 20px rgb(253, 181, 37),
+        0 0 40px rgb(253, 181, 37),
+        0 0 80px rgb(253, 181, 37),
+        0 0 120px rgb(253, 181, 37),
+        0 0 110px rgb(253, 181, 37),
+
+}
+
+@keyframes h1 {
+    20% {
+        text-shadow: 0 0 10px rgb(47, 0, 255),
+            0 0 20px rgb(47, 0, 255),
+            0 0 40px rgb(47, 0, 255),
+            0 0 80px rgb(47, 0, 255),
+            0 0 120px rgb(47, 0, 255),
+            0 0 110px rgb(47, 0, 255);
+    }
+
+    40% {
+        text-shadow: 0 0 10px rgb(60, 255, 0),
+            0 0 20px rgb(60, 255, 0),
+            0 0 40px rgb(60, 255, 0),
+            0 0 80px rgb(60, 255, 0),
+            0 0 120px rgb(60, 255, 0),
+            0 0 110px rgb(60, 255, 0);
+    }
+
+    60% {
+        text-shadow: 0 0 10px rgb(0, 204, 255),
+            0 0 20px rgb(0, 204, 255),
+            0 0 40px rgb(0, 204, 255),
+            0 0 80px rgb(0, 204, 255),
+            0 0 120px rgb(0, 204, 255),
+            0 0 110px rgb(0, 204, 255);
+    }
+
+    80% {
+        text-shadow: 0 0 10px rgb(255, 251, 0),
+            0 0 20px rgb(255, 251, 0),
+            0 0 40px rgb(255, 251, 0),
+            0 0 80px rgb(255, 251, 0),
+            0 0 120px rgb(255, 251, 0),
+            0 0 110px rgb(255, 251, 0);
+    }
+
+    100% {
+        text-shadow: 0 0 10px rgb(255, 0, 212),
+            0 0 20px rgb(255, 0, 212),
+            0 0 40px rgb(255, 0, 212),
+            0 0 80px rgb(255, 0, 212),
+            0 0 120px rgb(255, 0, 212),
+            0 0 110px rgb(255, 0, 212);
+    }
+}
+
+
+
+span {
+    font-weight: 600;
+
+}
+
+.mention {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 80px;
+}
+
+#main {
+    font-size: 28px;
+    text-shadow: 2px 4px 4px rgba(255, 0, 0, 0.708);
+}
+
+#mains {
+    font-size: 32px;
+    text-shadow: 2px 4px 4px rgba(255, 0, 0, 0.708);
+    margin-bottom: 20px;
+}
+
+
+
+.logo3 {
+    width: 30%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.123) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.087) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.041) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.046) 0px 32px 16px;
+
+}
+
+.for_abt {
+    margin: 100px;
+    margin-bottom: 100px;
+    padding: 50px;
+    border: 1px solid black;
+    background-color: rgb(243, 243, 243);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.for_abt h1 {
+    font-size: 60px;
+    margin: 10px;
+}
+
+.for_abt p {
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.dum {
+    background: rgb(9, 5, 23);
+    background: -moz-linear-gradient(90deg, rgba(9, 5, 23, 1) 0%, rgba(13, 15, 49, 1) 49%, rgba(8, 6, 19, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(9, 5, 23, 1) 0%, rgba(13, 15, 49, 1) 49%, rgba(8, 6, 19, 1) 100%);
+    background: linear-gradient(90deg, rgba(9, 5, 23, 1) 0%, rgba(13, 15, 49, 1) 49%, rgba(8, 6, 19, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#090517", endColorstr="#080613", GradientType=1);
+    color: white;
+    padding-bottom: 30px;
+}
+
+.evnt {
+    font-size: 33px;
+    text-align: center;
+    padding: 40px;
+}
+
+.part3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.part3 div {
+    color: #000000;
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 8px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+.tech h1 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.tech p {
+    padding-left: 30px;
+}
+
+.non-tech h1 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.non-tech p {
+    padding-left: 80px;
+}
+
+.online h1 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.online p {
+    padding-left: 60px;
+
+}
+
+.part3 i {
+    color: red
+}
+
+
+
+
+.btn3 {
+    text-align: center;
+
+}
+
+
+
+.btn3 button {
+
+    padding: 17px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 550;
+    margin: 30px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border-radius: 6px;
+    border: none;
+    background-color: #ff0000;
+    color: white;
+    transition: 0.6s;
+    margin-bottom: 50px;
+
+}
+
+.btn3 button:hover {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+
+
+.btn2 {
+    text-align: center;
+}
+
+
+
+.btn2 button {
+
+    padding: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 550;
+    margin: 30px;
+
+    border-radius: 6px;
+    border: none;
+    background-color: #FEFBF6;
+    transition: 0.6s;
+}
+
+.btn2 button:hover {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+
+.contact {
+    background-color: rgb(243, 243, 243);
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.contact h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 39px;
+}
+
+.contact h2 {
+    margin: 30px;
+    font-weight: 500;
+    font-size: 30PX;
+    text-align: center;
+}
+
+.staff {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.staff div {
+    background-color: #FEFBF6;
+    padding: 10px;
+    padding-bottom: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.staffs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.staffs div {
+    background-color: #FEFBF6;
+    padding: 10px;
+    padding-bottom: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.vj_mam h2 {
+    font-size: 22px;
+    margin: 10px;
+    text-align: center;
+}
+
+.anitha_mam h2 {
+    font-size: 22px;
+    margin: 10px;
+    text-align: center;
+}
+
+.vj_mam div {
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.anitha_mam div {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.anitha_mam {
+    transition: 0.3s;
+}
+
+.vj_mam {
+    transition: 0.3s;
+}
+
+.anitha_mam:hover {
+    transform: rotate(2deg);
+}
+
+.vj_mam:hover {
+    transform: rotate(2deg);
+}
+
+hr {
+    margin-top: 60px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.std h2 {
+    margin-top: 40px;
+}
+
+footer {
+    background: rgb(9, 5, 23);
+    background: -moz-linear-gradient(90deg, rgba(9, 5, 23, 1) 0%, rgba(13, 15, 49, 1) 49%, rgba(8, 6, 19, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(9, 5, 23, 1) 0%, rgba(13, 15, 49, 1) 49%, rgba(8, 6, 19, 1) 100%);
+    background: linear-gradient(90deg, rgba(9, 5, 23, 1) 0%, rgba(13, 15, 49, 1) 49%, rgba(8, 6, 19, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#090517", endColorstr="#080613", GradientType=1);
+    color: white;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.loc h2 {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.loc div {
+    padding-bottom: 10px;
+}
+
+.ww {
+    padding-bottom: 6px;
+}
+
+.fme {
+    display: flex;
+    gap: 15px;
+}
+
+.follow h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.ee {
+    font-size: 40px;
+    color: #FEFBF6;
+}
+
+.fme {
+    padding-bottom: 20px;
+}
+
+.dp_team h3 {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+    .indexes {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        font-size: 27px;
+    }
+
+    .logo {
+        margin-left: 0px;
+    }
+
+    .side {
+        display: block;
+    }
+
+    #new {
+
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(255, 0, 0);
+        position: relative;
+        top: 10px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    }
+
+    #new a {
+        color: white;
+
+    }
+
+    .tit {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    .launch_time {
+        font-size: 17px;
+
+    }
+
+    .launch_time p {
+        font-size: 40px;
+    }
+
+    .logo {
+        margin-left: 15px;
+        margin-top: 12px;
+        width: 37%;
+    }
+
+    .mention p {
+        font-size: 15px;
+    }
+
+    #mains {
+        font-size: 23px;
+        padding: 20px;
+    }
+
+    #main {
+        font-size: 24px;
+    }
+
+    .logo3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        background-color: rgb(255, 255, 255);
+        padding: 18px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+
+    .for_abt {
+        margin: 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 16px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+    }
+
+    .for_abt h1 {
+        font-size: 20px;
+    }
+
+    .for_abt p {
+        font-size: 6px;
+    }
+
+    .evnt {
+        font-size: 22px;
+    }
+
+    .evnt h1 {
+        margin-top: 20px;
+    }
+
+    .part3 {
+        display: block;
+    }
+
+    .part3 div {
+
+        padding: 20px;
+        margin: 20px;
+        border-radius: 15px;
+
+    }
+
+    .tech h1 {
+        font-size: 21px;
+        padding-bottom: 10px;
+    }
+
+    .tech p {
+        padding-left: 30px;
+    }
+
+    .non-tech h1 {
+        font-size: 21px;
+        padding-bottom: 10px;
+    }
+
+    .non-tech p {
+        padding-left: 30px;
+    }
+
+    .online h1 {
+        font-size: 21px;
+        padding-bottom: 10px;
+    }
+
+    .online p {
+        padding-left: 30px;
+
+    }
+
+    .evnt {
+        padding: 20px;
+    }
+
+    .btn2 {
+        margin-top: 70px;
+    }
+
+    .btn2 button {
+        margin-top: 0px;
+
+    }
+
+    .staff {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .contact h1 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .contact h2 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .anitha_mam img {
+        width: 100%;
+    }
+
+    .vj_mam img {
+        width: 100%;
+    }
+
+    .anitha_mam h2,
+    .vj_mam h2 {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .anitha_mam div,
+    .vj_mam div {
+        font-size: 14px;
+    }
+
+    .staffs {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 40px;
+    }
+
+    .std h2 {
+        margin-top: 20px;
+    }
+
+    .foot {
+        display: block;
+
+
+    }
+
+    .btn3 {
+        display: none;
+    }
+
+    #nes {
+        display: none;
+    }
+
+}
